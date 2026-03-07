@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="500" controls autoplay muted src="https://videos.rockstargames.com/v4/to1t28o9/flv/pt-br-1080p.mp4"></video>
+    <iframe width="500" height="240" src="https://www.youtube.com/embed/XVLIgkdvWxA?si=cY71i8askhoJKuZW&amp;start=735" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <table border="1">
+        <caption>Tabela de Profissões</caption>
+        <thead> 
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th colspan="2">Profissões</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td rowspan="2">18 anos</td>
+                <td>Eletrônico Indrustrial</td>
+                <td>musico</td>
+            </tr>
+            <tr>
+                <td>mathues</td>
+                <td>desempregado</td>
+                <td>youtuber</td>
+            </tr>
+            
+        </tbody>
+        
+    </table>
+    <section>
+        <h2>formularios</h2>
+        <form action="" method="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text"  name="nome" id="nome" required placeholder="Escreva seu nome">
+                <input type="submit">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required placeholder="Escreva seu email">
+                <input type="submit">
+
+                
+
+                <br>
+                <hr>
+
+                <label for="">Comentarios:</label>
+                <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+                
+                <br>
+                <hr>
+
+                <label for="estado">selecione seu estado:</label>
+                <select name="estado" id="estado">
+                <option value=" "selected disabled>----</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Parana</option>
+                <option value="RS">Rio Grande do Sul</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha seu genero</legend>
+
+                <input id="Masculino" name="genero" type="radio">
+                <label for="">Masculino</label>
+
+                <input id="Feminino" name="genero" type="radio">
+                <label for="">Feminino</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lista de Compras</legend>
+
+                <input id="macarrao" name="macarrao" type="checkbox">
+                <label for="">macarrao</label>
+                <br>
+                <input id="placa de video" name="placa de video" type="checkbox">
+                <label for="">Placa de video</video></label>
+                <br>
+                <input type="checkbox">
+                <label id="Celular" name="Celular" for="">Celular</label>
+
+
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
