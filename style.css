@@ -1,0 +1,16 @@
+
+        .container {
+            display: flex; 
+            gap: 10px;
+        }
+
+        .caixa {
+            flex: 1;
+            height: 100px;
+            background-color: aqua;
+        }
+
+        .links a{
+            display: block;
+            margin-bottom: 5px;
+        }
